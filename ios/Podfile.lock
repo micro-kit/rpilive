@@ -1,0 +1,45 @@
+PODS:
+  - barcode_scan (0.0.1):
+    - Flutter
+    - MTBBarcodeScanner
+  - device_id (0.0.1):
+    - Flutter
+  - fijkplayer (0.4.2):
+    - FIJKPlayer (~> 0.4.4)
+    - Flutter
+  - FIJKPlayer (0.4.4)
+  - Flutter (1.0.0)
+  - MTBBarcodeScanner (5.0.11)
+
+DEPENDENCIES:
+  - barcode_scan (from `.symlinks/plugins/barcode_scan/ios`)
+  - device_id (from `.symlinks/plugins/device_id/ios`)
+  - fijkplayer (from `.symlinks/plugins/fijkplayer/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - FIJKPlayer
+    - MTBBarcodeScanner
+
+EXTERNAL SOURCES:
+  barcode_scan:
+    :path: ".symlinks/plugins/barcode_scan/ios"
+  device_id:
+    :path: ".symlinks/plugins/device_id/ios"
+  fijkplayer:
+    :path: ".symlinks/plugins/fijkplayer/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  barcode_scan: 33f586d02270046fc6559135038b34b5754eaa4f
+  device_id: 4a0bf078741a3eec6ba0e6cc72e786395d5991b0
+  FIJKPlayer: b3a44750f39db82a99d5099ac6ae71c4aeac774c
+  fijkplayer: 0df23ba12768de84627f82e76fbb2ac1039e1130
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  MTBBarcodeScanner: f453b33c4b7dfe545d8c6484ed744d55671788cb
+
+PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
+
+COCOAPODS: 1.8.3
